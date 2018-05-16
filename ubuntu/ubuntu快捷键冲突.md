@@ -1,0 +1,1 @@
+1) 在ubuntu16.04里面用'ctrl + ;'会调用fcitx的select to paste快捷健，可以在fcitx的 configureFcitx->Addon -> Clipboard里修改

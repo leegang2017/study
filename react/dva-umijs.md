@@ -1,6 +1,6 @@
 # react, dva, umijs学习，工作中的坑
 
-一直比较喜欢阿里系的技术，所以这些微信网站选型用的是react, dva, umijs, ant desgin mobile
+一直比较喜欢阿里系的技术，所以这次微信网站选型用的是react, dva, umijs, ant desgin mobile
 
 下面是工作中遇到的问题和的解决方案
 1） 同一url，根据不同角色，跳转到不同的页面
