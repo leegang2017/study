@@ -1,2 +1,2 @@
 # study
-this a project for study java, html5, etc
+this a project for study, like nodejs, html5, css, etc
