@@ -1,3 +1,5 @@
+http://man.linuxde.net/curl
+
 
 curl 发送post json请求,设置 header
 ```sh

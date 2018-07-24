@@ -13,6 +13,11 @@ apt-cache search openssl
  or
  killall -9 firefox
 
+ 端口被使用
+netstat -anp 显示系统端口使用情况
+netstat -anp|grep 8080 查看使用8080端口的程序
+sudo netstat -tunlp|grep 3308
+
 
  查看流量
  sar -n DEV 1 2
@@ -36,3 +41,8 @@ cat /etc/issue  或cat /etc/redhat-release #（Linux查看版本当前操作系�
 cat /proc/cpuinfo #（Linux查看cpu相关信息，包括型号、主频、内核信息等）
 
  ```
+
+ 关闭显示器,可以设置快捷键alt + c
+  ```sh
+ xset dpms force off
+  ```
