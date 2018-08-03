@@ -1,3 +1,12 @@
+登录
+	mongo    //start local computer shell
+	mongo 192.168.0.111	//start remote computer shell
+
+	mongo 192.168.0.111:3308/hcc_sms //start use hcc_sms db
+	db.auth("hcc","123")	//login
+
+	mongo 192.168.0.111:3308/hcc_sms  -u hcc -p 123	//start use hcc_sms db and login
+
 1.查看索引： 
 db.COLLECTION_NAME.getIndexes()
 
