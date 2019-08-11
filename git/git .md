@@ -3,3 +3,6 @@
 ### 2. [常用 Git 命令清单](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)
 
 ### 3. [Git 使用规范流程](http://www.ruanyifeng.com/blog/2015/08/git-use-process.html)
+
+跳过本次构建
+git commit -m '[ci skip] to prod'
