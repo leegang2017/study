@@ -28,3 +28,5 @@ db.COLLECTION_NAME.dropIndex({name:1,age:1})
 3）.删除所有索引 
 db.COLLECTION_NAME.dropIndexes()
 
+MongoDB数据恢复
+mongorestore -h <hostname><:port> -d dbname <path>
