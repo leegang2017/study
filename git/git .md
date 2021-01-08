@@ -15,3 +15,6 @@ git commit -m '[ci skip] to prod'
 > cd json
 > git remote rm origin
 > git remote add origin https://gitee.com/jouypub/json.git
+
+修改commit作者
+git commit --amend --author="Author Name <email@address.com>"

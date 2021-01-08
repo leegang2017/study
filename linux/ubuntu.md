@@ -46,3 +46,9 @@ cat /proc/cpuinfo #（Linux查看cpu相关信息，包括型号、主频、内�
   ```sh
  xset dpms force off
   ```
+
+  Linux下查找进程安装目录
+  ps aux找到进程id
+  ```sh
+  file /proc/${pid}/exe
+  ```
