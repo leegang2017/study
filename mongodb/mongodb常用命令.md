@@ -30,3 +30,11 @@ db.COLLECTION_NAME.dropIndexes()
 
 MongoDB数据恢复
 mongorestore -h <hostname><:port> -d dbname <path>
+
+
+4.备份部分数据
+db.Table.aggregate([{ $match: {contacts: /test@e2etest.manulife.com/}}, { $out: "TableArchive2110" }])
+
+db.Table.aggregate([{ $match: {contacts: /test@e2etest.manulife.com/}}])
+
+db.Table.deleteMany({contacts: /test@e2etest.manulife.com/})

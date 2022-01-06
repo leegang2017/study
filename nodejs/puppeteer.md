@@ -4,6 +4,9 @@ Puppeteer
 ```sh
 yarn add puppeteer 或者 npm i puppeteer
 ```
+下载慢
+npm config set PUPPETEER_DOWNLOAD_HOST=https://npm.taobao.org/mirrors
+npm install --save puppeteer
 
 可能会出现以下报错:
 

@@ -18,3 +18,15 @@ git commit -m '[ci skip] to prod'
 
 修改commit作者
 git commit --amend --author="Author Name <email@address.com>"
+
+初次运行 Git 前都要进行用户名和邮件地址配置，一般使用下面命令进行配置：
+
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+
+通过--global参数设置后，配置文件放置在~/.gitconfig，对当前系统用户所有工程适用，配置完成后可以通过git config user.name和git config user.email查看
+
+针对每个工程使用不同的配置，则需要在当前工程根目录下运行命令
+git config user.email "xxx@qq.com"
+git config user.name "xxx"
+
